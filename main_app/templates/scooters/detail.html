@@ -26,9 +26,9 @@
     </form>
     <br>
     {% if scooter.serviced_for_today %}
-      <div class="card-panel teal-text center-align">{{scooter.model}} has been serviced all oils for today</div>
+      <div class="card-panel teal-text center-align">{{scooter.model}} has been serviced today</div>
     {% else %}
-      <div class="card-panel red-text center-align">{{scooter.model}} might be hungry</div>
+      <div class="card-panel red-text center-align">{{scooter.model}} needs servicing</div>
     {% endif %}
     <table class="striped">
       <thead>
